@@ -3,24 +3,22 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      Former Call of Duty developer with experience, drive, and an unyielding passion for technology. From the AAA video game Call of Duty
+      Modern Warfare III to apps to control your car, I love working on projects that impact people. I strive in a team while working well
+      independently to get tasks done under strict time constraints.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
+      <br />Right now I'm trying to find a new role so if you have any opportunities feel free to
       <router-link to="/contact">contact me</router-link>.
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      <br />Besides development, I'm passionate about songwriting and music.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="d/resume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/resume-photo.png" alt="Photo of Brandon" />
     </div>
 
     <div style="clear:both"></div>
@@ -28,78 +26,83 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>Associate Technical Designer - Microsoft/Activision-Blizzard (Sledgehammer Games)</h3>
+      <h4>July 2022 - January 2024</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>• Programmed in a proprietary game language "Game Script Code" (Call of Duty's version of C#) in a proprietary game engine,
+        simultaneously learning new systems and implementing game mechanics for the latest blockbuster Call of Duty title.<br />
+        • Designed, prototyped, integrated, and refined game features experienced by millions of players around the globe.<br />
+        • Came up with new ideas that fit the vision of the game and interfaced with other designers to improve upon said ideas.<br />
+        • Collaborated with a versatile team of designers, engineers, and artists.<br />
+        • Debugged and parsed logs to fix issues that arose.<br /></div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">CODEngine, GSC, LUA, Agile, Jira, Confluence, Design, Source Control</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+      <h3>Application Developer - Comcast</h3>
+      <h4>April 2022 - July 2022</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>• Designed, implemented, and maintained new features and experiences in the Comcast Android app using a combination of C# and .NET and
+        native Java and Kotlin.<br />
+        • Collaborated closely with iOS and Backend engineers, Product Owners, Designers, and Business Stakeholders on projects.<br />
+        • Participated in and supported bi-weekly Play Store releases to millions of users, closely monitoring product stability, feature releases,
+        analytics, and experiments.<br />
+        • Built durable, well-tested code with a strong commitment to quality and testability.<br />
+        • Worked with the latest Jetpack & Kotlin tools and frameworks.<br /></div>
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">Kotlin, Java, Jira, Confluence, Agile, Source Control</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
+      <h3>Application Developer - Ford Motor Company</h3>
+      <h4>September 2021 - April 2022</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>• Developed Android applications from conception to production for drivers and vehicles around the world using native Java.<br />
+        • Actively participated in reviewing, evaluating, and providing feedback on product designs and architectures with a software engineering
+        focus.<br />
+        • Wrote and contributed to high-quality documentation for software engineers.<br />
+        • Worked effectively with product managers, product designers and other technical experts.<br /></div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">Kotlin, Java, Confluence, Agile, Source Control</div>
+
+      <h3>Software Engineer - Makro Gaming Studios</h3>
+      <h4>November 2020 - September 2021</h4>
+
+      <div>• Ported existing casino titles to Android and iOS respecting mobile device limitations using C#, .NET, and Unity.<br />
+        • Collaborated with artists to ensure uniformity across mobile and machine games.<br /></div>
+
+      <div class="tech-stack">Unity, C#, Jira, Confluence, Agile, Source Control</div>
+
+      <h3>Application Developer - Materialize, Inc</h3>
+      <h4>November 2020 - September 2021</h4>
+
+      <div>• Designed and implemented features for an eSports management Android application.<br />
+        • Collaborated with product and design teams to optimize the mobile user experience.<br />
+        • Resolved design and development issues as they arose, ensuring the inclusion of a business vision and adjusting to new industry trends<br /></div>
+
+      <div class="tech-stack">Kotlin, Java, Jira, Confluence, Agile, Source Control</div>
 
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
-      </div>
-
-      <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <SkillRate name="C#, C++, .NET, GSC, Unreal Engine 4+, Unity 5+, Java, Kotlin, Lua, AGILE, Scrum, Proprietary Engines" />
       </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>Kennesaw State University 2015 - 2019</h3>
+      <h4>Bachelor of Science in Computer Game Design and Development</h4>
+      <div>• Researched AR, VR, and motion capture to explore contemporary systems, resulting in a fully functional online VR first-person shooter as
+        my Capstone project.<br />
+        • Game Design and Development Club (GDDC) President/Event Coordinator - planned large-scale events, led meetings, and taught game
+        design fundamentals to new students.<br />
+        • Residence Hall Association (RHA) President - created a sense of community through planning multi-campus events, leading town hall
+        meetings, and acting as liaison between the student body and school faculty.<br /></div>
 
-      <h2>Languages</h2>
-
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
-
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-
-
-      <h2>Besides...</h2>
+      <h2>Certifications</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
-
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
-
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-
+        <h3>Unity Official Ceritification 2017 - 2019</h3>
+        <div>
+          <a href="https://www.credly.com/badges/6ff40796-15f3-45f3-9829-f8e8c7537785/linked_in" target="">Link</a>
+        </div>
       </div>
     </div>
   </div>

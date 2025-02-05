@@ -4,17 +4,24 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I am <strong>Brandon Moss</strong>, a versatile software developer and game designer with 5 years of experience across game development, mobile apps, and interactive simulations.
       </div>
-
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
-
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 20px;">
+        My background spans AAA game design, mobile app development, and Unity programming, allowing me to bridge the gap between design and engineering to create engaging, high-quality experiences.
+      </div>
+      <div style="margin-top: 20px;">Previously, I worked as a <strong>Technical Game Designer</strong> at <strong>Microsoft/Activision-Blizzard's Sledgehammer Games</strong>,
+        where I contributed to the development of <router-link to="/game-projects">Call of Duty: Modern Warfare III's</router-link> gameplay systems, design, and stability. Before that, I developed <router-link to="/resume">Android/iOS applications, casino games, and VR training simulations</router-link> primarily using Unity.
+      </div>
+      <div style="margin-top: 20px;">
+        I'm passionate about crafting immersive experiences and currently looking for a new role. You can reach me at <a href="mailto:brandonallen.moss@gmail.com">brandonallen.moss@gmail.com</a> or <router-link to="/contact">through this page</router-link>.
+      </div>
+      <div style="margin-top: 20px;">
+      Let's connect and create something amazing!
+      </div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar.png" alt="Avatar of Brandon" />
     </div>
 
     <div style="clear:both"></div>
@@ -46,3 +53,5 @@
 }
 
 </style>
+<script lang="ts">
+</script>
