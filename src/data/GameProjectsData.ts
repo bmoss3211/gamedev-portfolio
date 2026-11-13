@@ -4,20 +4,19 @@ export default [
     new ProjectData("project-1", "Call of Duty: Modern Warfare III", "img/projects/project-1-icon.png",
     `
     <div class="paragraph" xmlns="http://www.w3.org/1999/html">
-     <strong>Modern Warfare III</strong> is the most monumental game I've worked on to date. I worked specifically on the zombies mode at Sledgdehammer Games.
+     I designed and implemented enemy AI encounters for <strong>Modern Warfare III — Zombies</strong> at Sledgehammer Games.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/jWHVyeeoMdE" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" title="Modern Warfare III Zombies video" src="https://www.youtube.com/embed/jWHVyeeoMdE" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
-        Position - Associate Technical Designer </br></br>
+        Position - Technical Designer </br></br>
         Responsibilities: 
         <ul>
-        <li>Design gameplay functionality in collaboration with other designers</li>
-        <li>Implement features and fix bugs that arise using CODEngine and the GSC programming language</li>
-        <li>Write clean and optimal code to company standards (both style and performance)</li>
-        <li>Work in an Agile framework</li>
+        <li>Designed enemy placement and encounter flow with other designers.</li>
+        <li>Implemented enemy behaviors and decision logic using GSC in the Call of Duty engine.</li>
+        <li>Investigated and fixed AI and gameplay defects.</li>
         </ul>
     </div>
 
@@ -26,9 +25,46 @@ export default [
         <img class="pc-screenshot" src="img/zombies.png" alt="MWIII Zombies Screenshot" />
     </div>
     `, "#23bd69", true),
+    new ProjectData("project-4", "MGS Casino Games", "img/projects/project-4-icon.png", `
+    <div class="paragraph">
+    At <strong>MGS</strong> (Makro Gaming Studios and formerly Meta Gaming Studios), I ported numerous casino titles from cabinet format to mobile using Unity and C#.
+    </div>
+    
+    <div class="paragraph">
+        Position - Unity Developer </br></br>
+        Responsibilities: 
+        <ul>
+        <li>Collaborated with artists to ensure uniformity across mobile and machine game</li>
+        <li>Worked around mobile device limitations to ensure a smooth transition from physical machine to Android and iOS</li>
+        </ul>
+    </div>
+
+    <div class="paragraph center">
+        <img class="phone-screenshot" src="https://winmgs.com/images/N4cabinet.png" alt="MGS Screenshot" />
+        <img class="phone-screenshot" src="https://winmgs.com/images/N5cabinet.png" alt="MGS Screenshot" />
+    </div>
+    `, "#e80fb7"),
+    new ProjectData("project-6", "PacketBall", "https://www.thefastmode.com/media/k2/items/cache/661cde5aa26fef2fd51a929fda6950fe_XL.jpg?t=20171124_025427", `
+    <div class="paragraph">
+        During an internship with a startup called PacketZoom, I developed a demo game <strong>PacketBall</strong> to demonstrate the company's networking plugin to investors.
+    </div>
+    
+    <div class="paragraph">
+        Position - Unity Developer </br></br>
+        Responsibilities: 
+        <ul>
+        <li>Designed and created a mobile game from start to finish</li>
+        <li>Worked with networking engineers and the marketing team for an accurate representation of the product</li>
+        </ul>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="https://www.superbcrew.com/wp-content/uploads/2017/02/PacketZoom_Featured2.jpg" alt="PacketZoom Screenshot" />
+        <img class="phone-screenshot" src="https://devops.com/wp-content/uploads/2015/04/packetzoom.jpg" alt="PacketZoom Screenshot" />
+    </div>`, "#e48246"),
     new ProjectData("project-2", "Xfinity Android App", "img/projects/project-2-icon.png", `
     <div class="paragraph">
-        <strong>I worked on the Xfinity Android application on features related to home internet connectivity.
+        <strong>I worked on the Xfinity Android application on features related to home internet connectivity.</strong>
     </div>
 
     <div class="paragraph">
@@ -68,25 +104,6 @@ export default [
         <img class="phone-screenshot" src="https://play-lh.googleusercontent.com/7YDLoW8ThriFx7XceVgOtuLTx2dyCUXZu6HWJRqUM8Tkq5vqas9deU2E87vec3R67mI=w2560-h1440" alt="Ford Screenshot" />
     </div>
     `, "#383838"),
-    new ProjectData("project-4", "MGS Casino Games", "img/projects/project-4-icon.png", `
-    <div class="paragraph">
-    At <strong>MGS</strong> (Makro Gaming Studios and formerly Meta Gaming Studios), I ported numerous casino titles from cabinet format to mobile using Unity and C#.
-    </div>
-    
-    <div class="paragraph">
-        Position - Unity Developer </br></br>
-        Responsibilities: 
-        <ul>
-        <li>Collaborated with artists to ensure uniformity across mobile and machine game</li>
-        <li>Worked around mobile device limitations to ensure a smooth transition from physical machine to Android and iOS</li>
-        </ul>
-    </div>
-
-    <div class="paragraph center">
-        <img class="phone-screenshot" src="https://winmgs.com/images/N4cabinet.png" alt="MGS Screenshot" />
-        <img class="phone-screenshot" src="https://winmgs.com/images/N5cabinet.png" alt="MGS Screenshot" />
-    </div>
-    `, "#e80fb7"),
     new ProjectData("project-5", "UMG Gaming Android App", "img/projects/project-5-icon.png", `
     <div class="paragraph">
         <strong>UMG Gaming</strong> was an android app made from start to finish for large-scale eSports tournaments.
@@ -105,23 +122,5 @@ export default [
     <div class="paragraph center">
         <img class="phone-screenshot" src="https://resource.globenewswire.com/Resource/Download/7a7181e0-8ba8-47cc-b062-f3384125748d" alt="UMG Gaming Screenshot" />
         <img class="phone-screenshot" src="https://resource.globenewswire.com/Resource/Download/2abd7d44-12ed-43cd-966d-8899a38a9388" alt="UMG Gaming Screenshot" />
-    </div>`, "#e48246"),
-    new ProjectData("project-6", "PacketBall", "https://www.thefastmode.com/media/k2/items/cache/661cde5aa26fef2fd51a929fda6950fe_XL.jpg?t=20171124_025427", `
-    <div class="paragraph">
-        During an internship with a startup called PacketZoom, I developed a demo game <strong>PacketBall</strong> to demonstrate the company's networking plugin to investors.
-    </div>
-    
-    <div class="paragraph">
-        Position - Unity Developer </br></br>
-        Responsibilities: 
-        <ul>
-        <li>Designed and created a mobile game from start to finish</li>
-        <li>Worked with networking engineers and the marketing team for an accurate representation of the product</li>
-        </ul>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://www.superbcrew.com/wp-content/uploads/2017/02/PacketZoom_Featured2.jpg" alt="PacketZoom Screenshot" />
-        <img class="phone-screenshot" src="https://devops.com/wp-content/uploads/2015/04/packetzoom.jpg" alt="PacketZoom Screenshot" />
     </div>`, "#e48246")
 ];

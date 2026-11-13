@@ -3,13 +3,9 @@
     
     <h1>Let's get in touch</h1>
 
-    <div style="margin-bottom:40px;">I'm looking for a job!<br/>Feel free to contact me about any opportunity, or just to chat.</div>
+    <p>For gameplay programming and technical design opportunities, reach me by email or LinkedIn.</p>
 
     <ul>
-      <li>
-        <i class="fa fa-user-circle-o fa-lg fa-fw"></i>
-        <a href="http://bmossgames.com" target="_blank">bmossgames.com</a>
-      </li>
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
         <a href="mailto:brandonallen.moss@gmail.com" target="_blank">brandonallen.moss@gmail.com</a>
@@ -22,10 +18,7 @@
         <i class="fa fa-github fa-lg fa-fw"></i>
         <a href="https://github.com/bmoss3211" target="_blank">github.com/bmoss3211</a>
       </li>
-      <li>
-        <i class="fa fa-steam fa-lg fa-fw"></i>
-        <a href="https://steamcommunity.com/id/bmo23/" target="_blank">steam.com/bmo23</a>
-      </li>
+
     </ul>
 
   </div>

@@ -3,7 +3,7 @@
     <h1>Projects</h1>
 
     <div style="margin-bottom: 30px;">
-      The following are projects I've made or heavily contributed to.
+      Select a project to see my role, contributions, and images. My game work is listed first, followed by mobile applications.
     </div>
 
     <ProjectsList v-bind:projects="projects" />

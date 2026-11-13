@@ -119,4 +119,9 @@ h1 {
   opacity: 0
 }
 
+@media print {
+  .header, .footer { display: none; }
+  #app, html, body { color: black; background: white; }
+  .main { padding: 0; }
+}
 </style>

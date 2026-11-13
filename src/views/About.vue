@@ -1,57 +1,27 @@
 <template>
-  <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
-
-    <div class="paragraph">
-      <div>
-        I am <strong>Brandon Moss</strong>, a versatile software developer and game designer with 5 years of experience across game development, mobile apps, and interactive simulations.
-      </div>
-      <div style="margin-top: 20px;">
-        My background spans AAA game design, mobile app development, and Unity programming, allowing me to bridge the gap between design and engineering to create engaging, high-quality experiences.
-      </div>
-      <div style="margin-top: 20px;">Previously, I worked as a <strong>Technical Game Designer</strong> at <strong>Microsoft/Activision-Blizzard's Sledgehammer Games</strong>,
-        where I contributed to the development of <router-link to="/game-projects">Call of Duty: Modern Warfare III's</router-link> gameplay systems, design, and stability. Before that, I developed <router-link to="/resume">Android/iOS applications, casino games, and VR training simulations</router-link> primarily using Unity.
-      </div>
-      <div style="margin-top: 20px;">
-        I'm passionate about crafting immersive experiences and currently looking for a new role. You can reach me at <a href="mailto:brandonallen.moss@gmail.com">brandonallen.moss@gmail.com</a> or <router-link to="/contact">through this page</router-link>.
-      </div>
-      <div style="margin-top: 20px;">
-      Let's connect and create something amazing!
-      </div>
-    </div>
-
-    <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of Brandon" />
-    </div>
-
-    <div style="clear:both"></div>
-
-  </div>
+  <main class="intro">
+    <p class="role">Gameplay programmer &amp; technical designer</p>
+    <h1>Brandon Moss</h1>
+    <p class="lead">I build enemy encounters and gameplay systems. On <em>Call of Duty: Modern Warfare III — Zombies</em>, I designed enemy placement and encounter flow, scripted AI behaviors in GSC, and fixed gameplay bugs.</p>
+    <router-link to="/game-projects">Explore my projects →</router-link>
+    <figure>
+      <img src="img/zombies.png" alt="Gameplay from Call of Duty: Modern Warfare III — Zombies" />
+      <figcaption>Modern Warfare III — Zombies · Technical design</figcaption>
+    </figure>
+    <h2>Independent development</h2>
+    <p><strong>Ghost Gaming · UEFN and Verse.</strong> As the sole developer, I designed original game modes, programmed their mechanics, and iterated on them in play.</p>
+    <p><strong>Multiplayer VR shooter · Unity, C#, and Photon.</strong> I built this online first-person shooter solo for my Kennesaw State capstone, from VR interactions to multiplayer networking.</p>
+    <router-link to="/resume">View my résumé →</router-link>
+  </main>
 </template>
 
 <style scoped>
-.paragraph {
-  max-width: 700px;
-  margin-bottom: 20px;
-}
-
-.photo {
-  margin-top: 50px;
-  text-align: center;
-}
-
-@media only screen and (min-width: 620px){
-  .paragraph {
-    float: left;
-  }
-
-  .photo {
-    float: left;
-    padding: 10px;
-    padding-left: 80px;
-  }
-}
-
+.intro { max-width: 52rem; text-align: left; }
+.role, figcaption { font-size: .95rem; }
+.intro h1 { margin: .2em 0 .45em; line-height: 1.1; font-weight: 700; }
+.lead { max-width: 47rem; font-size: 1.2em; line-height: 1.55; }
+.intro a { opacity: 1; text-decoration: underline; }
+figure { margin: 1.5rem 0; }
+figure img { width: 100%; height: auto; display: block; }
+figcaption { margin-top: .35rem; }
 </style>
-<script lang="ts">
-</script>
